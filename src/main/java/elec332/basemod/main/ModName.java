@@ -20,7 +20,7 @@ import java.io.File;
 /**
  * Created by Elec332 on 24-2-2015.
  */
-@Mod(modid = ModName.ModName, name = ModName.ModID, dependencies = modInfo.DEPENDENCIES+"@[#ELECCORE_VER#,)",
+@Mod(modid = ModName.ModNID, name = ModName.ModName, dependencies = modInfo.DEPENDENCIES+"@[#ELECCORE_VER#,)",
         acceptedMinecraftVersions = modInfo.ACCEPTEDMCVERSIONS, useMetadata = true, canBeDeactivated = true)
 public class ModName extends ModBase {
 
