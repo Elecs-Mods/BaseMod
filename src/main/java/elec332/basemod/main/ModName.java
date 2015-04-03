@@ -12,7 +12,7 @@ import elec332.basemod.init.ItemRegister;
 import elec332.core.helper.FileHelper;
 import elec332.core.helper.MCModInfo;
 import elec332.core.modBaseUtils.ModBase;
-import elec332.core.modBaseUtils.modInfo;
+import elec332.core.modBaseUtils.ModInfo;
 import elec332.basemod.proxies.CommonProxy;
 
 import java.io.File;
@@ -20,8 +20,8 @@ import java.io.File;
 /**
  * Created by Elec332 on 24-2-2015.
  */
-@Mod(modid = ModName.ModNID, name = ModName.ModName, dependencies = modInfo.DEPENDENCIES+"@[#ELECCORE_VER#,)",
-        acceptedMinecraftVersions = modInfo.ACCEPTEDMCVERSIONS, useMetadata = true, canBeDeactivated = true)
+@Mod(modid = ModName.ModNID, name = ModName.ModName, dependencies = ModInfo.DEPENDENCIES+"@[#ELECCORE_VER#,)",
+        acceptedMinecraftVersions = ModInfo.ACCEPTEDMCVERSIONS, useMetadata = true, canBeDeactivated = true)
 public class ModName extends ModBase {
 
     public static final String ModName = "YourModName"; //Human readable name
